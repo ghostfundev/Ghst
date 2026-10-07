@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150" role="img" aria-label="GHOSTFUN on NEAR">
+  <defs>
+    <radialGradient id="ghostBody" cx="34%" cy="26%" r="78%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="42%" stop-color="#dbe9f8"/>
+      <stop offset="100%" stop-color="#9fb8ce"/>
+    </radialGradient>
+    <filter id="ghostGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="420" height="150" rx="18" fill="#030405"/>
+
+  <g transform="translate(26 24) scale(2.12)" filter="url(#ghostGlow)">
+    <path d="M24 5.6C15.9 5.6 9 12.7 9 21.4V42.4l5-3.6 5 3.6 5-3.6 5 3.6 5-3.6 5 3.6V21.4C39 12.7 32.1 5.6 24 5.6Z" fill="url(#ghostBody)"/>
+    <path d="M18.6 22.2a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4ZM29.4 22.2a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4Z" fill="#030405"/>
+  </g>
+
+  <text x="136" y="78" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="4.2" fill="#eef3ff">GHOSTFUN</text>
+  <text x="139" y="103" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="500" letter-spacing="9.6" fill="#9fb3c6">ON NEAR</text>
+</svg>
